@@ -9,7 +9,7 @@
   
   <avps>
     
-    <avp name="Session-Id" value="://example.com;12345;6789;1" />
+    <avp name="Session-Id" value="pgw01.epc.mnc001.mcc001.3gppnetwork.org;1714316523;1 />
     <avp name="Origin-Host" /> 
     <avp name="Origin-Realm" />
     <avp name="Destination-Realm" value="epc.mnc001.mcc001.3gppnetwork.org" />
