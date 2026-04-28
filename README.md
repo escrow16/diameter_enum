@@ -247,3 +247,12 @@ Response: Auth-Application-Id = Relay [RFC6733]
 ```
 
 This mode in combination with the *-t* commandline switch can be used to send single Diameter commands to a given realm/host. For special cases certain AVPs might be added, removed or changed in the generated probe packets by editing the probe definition in the msgs folder.
+
+## How to Run the Test
+Once you have created the message file, use the -m flag to send it to the PCRF:
+
+... 
+
+python3 diameter_enum.py -t sctp -m msgs/gx_ccr_i.msg <PCRF_IP_ADDRESS>
+
+...
